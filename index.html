@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Bwebsite</title>
     <meta charset="utf-8">
@@ -10,115 +11,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
-        <a class="navbar-brand" href="#">Home</a>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#Intro">Intro</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#Dashboard">Dashboard</a>
-            </li>
-        </ul>
-    </nav>
-
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1>Motivatie</h1>      
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                Aenean commodo ligula eget dolor. Aenean massa.
-                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-                Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-                Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-                Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-                Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-                Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-                Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
-        </div>
-    </div>
-
-    <div id="demo1" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-          <li data-target="#demo" data-slide-to="3"></li>
-        </ul>
-
-        <div class="carousel-inner container-fluid">
-            <div class="carousel-item active">
-                <img src="html.jpg" alt="html">
-            </div>
-            <div class="carousel-item">
-                <img src="css.png" alt="css">
-            </div>
-            <div class="carousel-item">
-                <img src="php.png" alt="php">
-            </div>
-            <div class="carousel-item">
-                <img src="SQL.png" alt="SQL">
-            </div>
-        </div>
-
-        <a class="carousel-control-prev bg-dark" href="#demo1" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next bg-dark" href="#demo1" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </div>
-
-    <div id="Intro" class="container-fluid">
-        <h1>Intro</h1>
-        <ul>
-            <li>Naam: Tom Roskam</li>
-            <li>Woonplaats: Oostkapelle</li>
-            <li>Leeftijd: 18 jaar</li>
-            <li>Vorige school: SSG Nehalennia</li>
-            <li>Instrument: drumstel</li>
-            <li>Sport: judo, voetbal en tennis</li>
-            <li>Hobby's: auto's, voetbal, computers </li>
-        </ul>
-    </div>
-
-    <div id="demo2" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-    
-        <div class="carousel-inner container-fluid">
-            <div class="carousel-item active">
-                <img src="shelby2.jpg" alt="shelby">
-            </div>
-            <div class="carousel-item">
-                <img src="drumstel.jpg" alt="drumstel">
-            </div>
-            <div class="carousel-item">
-                <img src="bal.jpg" alt="bal">
-            </div>
-        </div>
-    
-        <a class="carousel-control-prev bg-dark" href="#demo2" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next bg-dark" href="#demo2" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </div>
-
-    <div id="Dashboard" class="container-fluid bg-dark">
-        <h1 class="text-white float-left">Dashboard</h1> 
-
-        <div class="dropdown">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                  Links
-            </button>
-            <div class="dropdown-menu">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <h1>HZ</h1>
+                <p>2018-2019</p>
                 <a class="dropdown-item" target="_blank" href="https://hz.nl/uploads/documents/Regelingen/NL/Onderwijs-examenregelingen/OER-HZ-2018-2019docv2018-06-26DEFCvB-V-01.pdf">OER</a>
                 <a class="dropdown-item" target="_blank" href="https://hz.nl/uploads/documents/Regelingen/OERS/2017-2018/HBO-ICT-2017-2018-OER.pdf#">UR</a>
                 <a class="dropdown-item" target="_blank" href="https://learn.hz.nl/my/">HZlearn</a>
@@ -127,206 +27,68 @@
                 <a class="dropdown-item" target="_blank" href="https://github.com/TomRoskam/TomRoskam">GitHub</a>
             </div>
         </div>
-        <br>
-        <div class="container-fluid">
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated"></div>
-            </div>
-            <p class="progtext">0 studiepunten</p>
-        </div>
-        <br>
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">
-                <div class="row">
-                    <div class="col bg-danger text-white" style="border-top-left-radius:5px;"><h6>propedeuse BLOK 1</h6></div>
-                    <div class="col bg-danger text-white"><h6>Reslutaat</h6></div>
-                    <div class="col bg-danger text-white"><h6>EC waarde</h6></div>
-                    <div class="col bg-danger text-white"><h6>EC virtueel</h6></div>
-                    <div class="col bg-danger text-white" style="border-top-right-radius:5px;"><h6>EC vastgesteld</h6></div>
-                </div>
+
+        <span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776; </span>
+
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.display = "block";
+            }
+
+            function closeNav() {
+                document.getElementById("myNav").style.display = "none";
+            }
+        </script>
+
+        <a class="navbar-brand" href="index.html">Home</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="intro.html">Intro</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="dashboard.html">Dashboard</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="home">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <br>
+                <h1>Motivatie</h1>
+                <p>Ik denk dat ik geschikt ben voor deze studie omdat ik alles wat met techniek te maken heeft interessant
+                    vind. Toen ik in de 3e van de HAVO een profielkeuze moest maken, was de keuze dan ook snel gemaakt en
+                    koos voor Natuur en Techniek. Binnen dit profiel was ook de keuze informatica mogelijk.<br> Dit vak heb
+                    ik dan ook gekozen en heb daar de basis van programmeren geleerd. Ik hierdoor ervaring met verschillende
+                    talen. Met de ene taal heb ik natuurlijk meer ervaring dan de andere. Ik hoop hier op de HZ nog veel
+                    meer te kunnen leren. En zo later een mooie baan te kunnen vinden.</p>
             </div>
         </div>
 
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">    
-                <div class="row">
-                    <div class="col bg-white">Computer Science Basics</div>
-                    <div class="col bg-white"></div>
-                    <div class="col bg-white">7.50</div>
-                    <div class="col bg-white">0.00</div>
-                    <div class="col bg-white"></div>
+        <div id="demo1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner container-fluid">
+                <div class="carousel-item active">
+                    <img src="html.jpg" alt="html">
+                </div>
+                <div class="carousel-item">
+                    <img src="css.png" alt="css">
+                </div>
+                <div class="carousel-item">
+                    <img src="php.png" alt="php">
+                </div>
+                <div class="carousel-item">
+                    <img src="SQL.png" alt="SQL">
                 </div>
             </div>
-        </div>
 
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">
-                <div class="row">
-                    <div class="col" style="background-color:lightgrey"> Object-oriented programming</div>
-                    <div class="col" style="background-color:lightgrey;"></div>
-                    <div class="col" style="background-color:lightgrey;">10.00</div>
-                    <div class="col" style="background-color:lightgrey;">0.00</div>
-                    <div class="col" style="background-color:lightgrey;"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">
-                <div class="row">
-                    <div class="col  bg-white">Opleidings- en beroepsorientatie</div>
-                    <div class="col bg-white"></div>
-                    <div class="col bg-white">2.50</div>
-                    <div class="col bg-white">0.00</div>
-                    <div class="col bg-white"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">
-                <div class="row">
-                    <div class="col" style="background-color:lightgrey;">Professional skills 1</div>
-                    <div class="col" style="background-color:lightgrey;"></div>
-                    <div class="col" style="background-color:lightgrey;">2.50</div>
-                    <div class="col" style="background-color:lightgrey;">0.00</div>
-                    <div class="col" style="background-color:lightgrey;"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">
-                <div class="row">
-                    <div class="col bg-white">Programming basics</div>
-                    <div class="col bg-white"></div>
-                    <div class="col bg-white">5.00</div>
-                    <div class="col bg-white">0.00</div>
-                    <div class="col bg-white"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">
-                <div class="row">
-                    <div class="col" style="background-color:lightgrey;">HZ-Personality 2a</div>
-                    <div class="col" style="background-color:lightgrey;"></div>
-                    <div class="col" style="background-color:lightgrey;">2.50</div>
-                    <div class="col" style="background-color:lightgrey;">0.00</div>
-                    <div class="col" style="background-color:lightgrey;"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">
-                <div class="row">
-                    <div class="col bg-white" style="border-bottom-left-radius:5px;">IT Personality 2a</div>
-                    <div class="col bg-white"></div>
-                    <div class="col bg-white">2.50</div>
-                    <div class="col bg-white">0.00</div>
-                    <div class="col bg-white" style="border-bottom-right-radius:5px;"></div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">
-                <div class="row">
-                    <div class="col bg-danger text-white" style="border-top-left-radius:5px"><h6>propedeuse BLOK 2</h6></div>
-                    <div class="col bg-danger text-white"><h6>Reslutaat</h6></div>
-                    <div class="col bg-danger text-white"><h6>EC waarde</h6></div>
-                    <div class="col bg-danger text-white"><h6>EC virtueel</h6></div>
-                    <div class="col bg-danger text-white" style="border-top-right-radius:5px"><h6>EC vastgesteld</h6></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">
-                <div class="row">
-                    <div class="col" style="background-color:lightgrey;"> Framework development 1</div>
-                    <div class="col" style="background-color:lightgrey;"></div>
-                    <div class="col" style="background-color:lightgrey;">5.00</div>
-                    <div class="col" style="background-color:lightgrey;">0.00</div>
-                    <div class="col" style="background-color:lightgrey;"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">
-                <div class="row">
-                    <div class="col bg-white">Framework development 2</div>
-                    <div class="col bg-white"></div>
-                    <div class="col bg-white">5.00</div>
-                    <div class="col bg-white">0.00</div>
-                    <div class="col bg-white"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">
-                <div class="row">
-                    <div class="col" style="background-color:lightgrey;">Framework project 1</div>
-                    <div class="col" style="background-color:lightgrey;"></div>
-                    <div class="col" style="background-color:lightgrey;">5.00</div>
-                    <div class="col" style="background-color:lightgrey;">0.00</div>
-                    <div class="col" style="background-color:lightgrey;"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">
-                <div class="row">
-                    <div class="col bg-white">Framework project 2</div>
-                    <div class="col bg-white"></div>
-                    <div class="col bg-white">5.00</div>
-                    <div class="col bg-white">0.00</div>
-                    <div class="col bg-white"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">
-                <div class="row">
-                    <div class="col" style="background-color:lightgrey;">Professional skills 2</div>
-                    <div class="col" style="background-color:lightgrey;"></div>
-                    <div class="col" style="background-color:lightgrey;">2.50</div>
-                    <div class="col" style="background-color:lightgrey;">0.00</div>
-                    <div class="col" style="background-color:lightgrey;"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">
-                <div class="row">
-                    <div class="col bg-white">Professional skills 3</div>
-                    <div class="col bg-white"></div>
-                    <div class="col bg-white">2.50</div>
-                    <div class="col bg-white">0.00</div>
-                    <div class="col bg-white"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="container-fluid border border-dark">
-                <div class="row">
-                    <div class="col  bg-white" style=" border-bottom-left-radius:5px;">Professionele werkplek 1</div>
-                    <div class="col bg-white"></div>
-                    <div class="col bg-white">2.50</div>
-                    <div class="col bg-white">0.00</div>
-                    <div class="col bg-white" style="border-bottom-right-radius:5px;"></div>
-                    </div>
-                </div>
-            </div>
+            <a class="carousel-control-prev bg-dark" href="#demo1" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next bg-dark" href="#demo1" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
         </div>
     </div>
 </body>
+
 </html>
