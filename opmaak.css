@@ -12,6 +12,37 @@ body {
     height: 200px;
 }
 
+#Intro {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: 815px;
+}
+
+#Dashboard {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    height: 650px;
+}
+
+.dropdown {
+    margin-left: 20%;
+    margin-top: 0.5%;
+}
+
+.progress-bar .progress-bar-striped .progress-bar-animated {
+    width: 0%;
+    color: black;
+}
+
+.progtext {
+    font-size: 16px;
+    margin-top: -21px;
+    margin-left: 45%;
+    margin-right: 45%;
+    color: black;
+    font-weight: bold;
+}
+
 #demo1 {
     margin-top: 9.5%;
 }
