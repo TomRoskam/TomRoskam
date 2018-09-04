@@ -15,9 +15,8 @@ body {
 }
 
 #home {
-    background: linear-gradient(90deg, #034426 0%, #3ad59f 100%);
+    background: linear-gradient(90deg, #008b46 0%, #1bbdfd 100%);
     height: 100vh;
-
 }
 
 .top {
@@ -28,15 +27,15 @@ body {
 }
 
 #Intro {
-    background: linear-gradient(90deg, #034426 0%, #3ad59f 100%);
+    background: linear-gradient(90deg, #008b46 0%, #1bbdfd 100%);
     height: 100vh;
     color: white;
     padding: 75px 0px 0px 10px;
 }
 
 #Dashboard {
-   height: 100vh;
-   padding: 75px 0px 0px 0px;
+    height: 100vh;
+    padding: 75px 0px 0px 0px;
 
 }
 
@@ -60,23 +59,23 @@ body {
 
 #demo1 {
     width: 50%;
-    margin-top: 5%;
+    margin-top: 10vh;
     bottom: 0;
-    margin-left: 25%;
+    margin-left: 50vh;
     border-radius: 10%;
     
 }
 
 #demo2 {
     width: 50%;
-    margin-left: 25%;
+    margin-left: 50vh;
     border-radius: 10%;
-    margin-top: -20.8%;
+    margin-top: -42.5vh;
 }
 
 
-.carousel-inner img {   
-    margin-left: 27%;
+.carousel-item img { 
+    margin-left: 27vh;
     width: 300px;
     height: 200px;
     border-radius: 10px;    
@@ -102,7 +101,9 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg, rgb(255, 153, 35) 0%, rgb(28, 113, 102) 100%);
+    background: linear-gradient(180deg, #a70075 0%, #fd621b 100%);
+    animation-duration: 1s;
+    animation-name: fadein;
 }
 
 .overlay-content {
@@ -110,7 +111,6 @@ body {
     top: 100px;
     width: 100%;
     text-align: center;
-
 }
 
 .overlay a {
@@ -137,3 +137,12 @@ body {
   }
 }
 
+@keyframes fadein {
+    from {
+        opacity: 0.0;
+      }
+    
+      to {
+       opacity: 1.0;
+      }
+    }
