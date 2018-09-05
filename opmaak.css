@@ -31,7 +31,15 @@ body {
     height: 100vh;
     color: white;
     padding: 75px 0px 0px 10px;
+    z-index: -1;
 }
+
+.blok {
+    color: white;
+    width: 100%;/*HIER BEN IK BEZIG*/
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 #Dashboard {
     height: 100vh;
@@ -44,7 +52,6 @@ body {
 }
 
 .progress-bar, .progress-bar-striped, .progress-bar-animated {
-    color: black;
     width: 0%;
 }   
 
@@ -66,14 +73,6 @@ body {
     
 }
 
-#demo2 {
-    width: 50%;
-    margin-left: 50vh;
-    border-radius: 10%;
-    margin-top: -42.5vh;
-}
-
-
 .carousel-item img { 
     margin-left: 27vh;
     width: 300px;
@@ -83,18 +82,19 @@ body {
 
 .carousel-control-prev {
     border-radius: 10%;
-    margin-top: 5%;
-    height: 50%;
+    margin-top: 5vh;
+    height: 15vh;
 }
 
 .carousel-control-next {
     border-radius: 10%;
-    margin-top: 5%;
-    height: 50%;
+    margin-top: 5vh;
+    height: 15vh;
 }
 
+/*OVERLAY HAMURGER MENU*/
 .overlay {
-    height: 100%;
+    height: 100%;/*VIEW HIGH VAN MAKEN */
     width: 100%;
     display: none;
     position: fixed;
@@ -102,7 +102,7 @@ body {
     top: 0;
     left: 0;
     background: linear-gradient(180deg, #a70075 0%, #fd621b 100%);
-    animation-duration: 1s;
+    animation-duration: .2s;
     animation-name: fadein;
 }
 
@@ -146,3 +146,9 @@ body {
        opacity: 1.0;
       }
     }
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%; 
+}

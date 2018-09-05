@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <link rel="icon" type="image/gif" href="mario.gif" />
     <title>Bwebsite</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,73 +17,67 @@
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <div id="myNav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="overlay-content">
-                    <h1>HZ</h1>
-                    <p>2018-2019</p>
-                    <a class="dropdown-item" target="_blank" href="https://hz.nl/uploads/documents/Regelingen/NL/Onderwijs-examenregelingen/OER-HZ-2018-2019docv2018-06-26DEFCvB-V-01.pdf">OER</a>
-                    <a class="dropdown-item" target="_blank" href="https://hz.nl/uploads/documents/Regelingen/OERS/2017-2018/HBO-ICT-2017-2018-OER.pdf#">UR</a>
-                    <a class="dropdown-item" target="_blank" href="https://learn.hz.nl/my/">HZlearn</a>
-                    <a class="dropdown-item" target="_blank" href="https://hz-hbo-ict.slack.com/messages/CCBLXTL05/">Slack</a>
-                    <a class="dropdown-item" target="_blank" href="https://hz.nl/secure">MyHZ</a>
-                    <a class="dropdown-item" target="_blank" href="https://github.com/TomRoskam/TomRoskam">GitHub</a>
-                </div>
+            <div class="overlay-content">
+                <h1>HZ</h1>
+                <p>2018-2019</p>
+                <a class="dropdown-item" target="_blank" href="https://hz.nl/uploads/documents/Regelingen/NL/Onderwijs-examenregelingen/OER-HZ-2018-2019docv2018-06-26DEFCvB-V-01.pdf">OER</a>
+                <a class="dropdown-item" target="_blank" href="https://hz.nl/uploads/documents/Regelingen/OERS/2017-2018/HBO-ICT-2017-2018-OER.pdf#">UR</a>
+                <a class="dropdown-item" target="_blank" href="https://learn.hz.nl/my/">HZlearn</a>
+                <a class="dropdown-item" target="_blank" href="https://hz-hbo-ict.slack.com/messages/CCBLXTL05/">Slack</a>
+                <a class="dropdown-item" target="_blank" href="https://hz.nl/secure">MyHZ</a>
+                <a class="dropdown-item" target="_blank" href="https://github.com/TomRoskam/TomRoskam">GitHub</a>
             </div>
+        </div>
 
-            <span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776; </span>
+        <span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776; </span>
 
-            <script>
+        <script>
             function openNav() {
                 document.getElementById("myNav").style.display = "block";
             }
 
-                function closeNav() {
-                    document.getElementById("myNav").style.display = "none";
-                }
-            </script>
+            function closeNav() {
+                document.getElementById("myNav").style.display = "none";
+            }
+        </script>
 
-            <a class="navbar-brand" href="index.html">Home</a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="intro.html">Intro</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="dashboard.html">Dashboard</a>
-                </li>
-            </ul>
-        </nav>
+        <a class="navbar-brand" href="index.html">Home</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="intro.html">Intro</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="dashboard.html">Dashboard</a>
+            </li>
+        </ul>
+    </nav>
 
-        <div id="Intro" class="container-fluid">    
+    <div id="Intro" class="container-fluid">
+        <div class="blok">
             <h1>Intro</h1>
             <ul>
-                <li>Naam:           Tom Roskam</li>
-                <li>Woonplaats:     Oostkapelle</li>
-                <li>Leeftijd:       18 jaar</li>
-                <li>Vorige school:  SSG Nehalennia</li>
-                <li>Instrument:     drumstel</li>
-                <li>Sport:          judo, voetbal en tennis</li>
-                <li>Hobby's:        auto's, voetbal, computers </li>
+                <li>Naam: Tom Roskam</li>
+                <li>Woonplaats: Oostkapelle</li>
+                <li>Leeftijd: 18 jaar</li>
+                <li>Vorige school: SSG Nehalennia</li>
+                <li>Instrument: drumstel</li>
+                <li>Sport: judo, voetbal en tennis</li>
+                <li>Hobby's: auto's, voetbal, computers </li>
             </ul>
         </div>
 
-        <div id="demo2" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner container-fluid">
-                <div class="carousel-item active">
-                    <img src="shelby2.jpg" alt="shelby">
-                </div>
-                <div class="carousel-item">
-                    <img src="drumstel.jpg" alt="drumstel">
-                </div>
-                <div class="carousel-item">
-                    <img src="bal.jpg" alt="bal">
-                </div>
+        <div class="container">
+            <div class="shelby">
+                <img src="shelby2.jpg" alt="shelby" width="325px" height="200px">
             </div>
 
-            <a class="carousel-control-prev bg-dark" href="#demo2" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next bg-dark" href="#demo2" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
+            <div class="drumstel">
+                <img src="drumstel.jpg" alt="shelby" width="325px" height="200px">
+            </div>
+
+            <div class="bal">
+                <img src="bal.jpg" alt="bal" width="325px" height="200px">
+            </div>
         </div>
     </div>
 </body>
