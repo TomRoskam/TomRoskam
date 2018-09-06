@@ -1,5 +1,5 @@
-body { 
-    overflow: hidden;   /*SCROLLEN OVERBODIG*/
+::-webkit-scrollbar { 
+    display: none; 
 }
 
 .navbar {
@@ -16,7 +16,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 1000vh;
+    height: 300vh;
 }
 
 .top {
@@ -27,12 +27,12 @@ body {
 }
 
 .Intro {
-    background: url(zee.jpg) no-repeat center center fixed; 
+    background: url(dal.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 1000vh;
+    height: 300vh;
 }
 
 .blok {
@@ -63,7 +63,7 @@ body {
 }
 
 .Dashboard {
-    height: 1000vh;
+    height: 300vh;
     padding: 75px 0px 0px 0px;
 }
 
