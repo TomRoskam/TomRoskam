@@ -72,7 +72,7 @@
 }
 
 .progress-bar, .progress-bar-striped, .progress-bar-animated {
-    width: 10%;  /*AANPASSEN PROGRESSIE PROG. BALK*/
+    width: 0%;  /*AANPASSEN PROGRESSIE PROG. BALK*/
 }   
 
 .progtext {
@@ -123,8 +123,8 @@
 }
 
 .drawdiamond {
-    margin-top: -50vh;
-    margin-left: 5vw;
+    margin-top: -110vh;
+    margin-left: 1vw;
     height: 50px;
 }
 
