@@ -26,6 +26,34 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.wrapper-motivatie {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.theorie {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5vh 29vh 0vh 29vh;
+}
+
+.motivatie {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    width: 20vw;
+    margin: 5vh 5vh 0vh 5vh;
+}
+
+.prestatiemotivatie {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5vh 29vh 0vh 29vh;
+}
+
 .Intro {
     background: url(vogel.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
