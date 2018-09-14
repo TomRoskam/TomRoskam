@@ -11,7 +11,7 @@
 }
 
 .home {
-    background: url(bos.jpg) no-repeat center center fixed; 
+    background: url(steen.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -23,39 +23,44 @@
     color: white;
     padding: 100px 100px 52px 100px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .wrapper-motivatie {
-    margin-top: 12vh;
+    background-color: grey;
 }
 
-.theorie {
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    padding: 10px;
-    margin: 5vh 10vh 0vh 10vh;
+.motivatie-theorie {
+    background-color: rgba(255, 105, 180, 0.466);
 }
 
 .motivatie {
-    background-color: rgb(255, 255, 255);
+    background-color: blue;
+    width: 20%; 
+
+
     border-radius: 5px;
-    padding: 10px;
-    margin: 5vh 15vh 0vh 15vh;
 }
 
-.prestatiemotivatie {
-    background-color: rgb(255, 255, 255);
+.theorie {
+    background-color: rgb(255, 0, 0);
+
+
     border-radius: 5px;
-    padding: 10px;
-    margin: 5vh 5vh 0vh 5vh;
+}
+
+.test {
+    background-color: green;
+
+
+    border-radius: 5px;
 }
 
 .conclusie {
-    background-color: rgb(255, 255, 255);
+    background-color: yellow;
+
+
     border-radius: 5px;
-    padding: 10px;
-    margin: 5vh 5vh 0vh 5vh;
 }
 
 .Intro {
