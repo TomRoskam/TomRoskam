@@ -38,45 +38,40 @@
 .motivatie {
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    border-radius: 5px;
-    box-shadow: 13px 15px 35px -2px rgba(0,0,0,0.75);
-    margin: 10px 5px 5px 10px;
+    border-radius: 5px; 
+    margin: 10px;
 }
 
 .wrapper-theorie-test {
-width: 70%;
+    width: 70%;
 }
 
 .theorie {
     background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 13px 15px 35px -2px rgba(0,0,0,0.75);
-    margin: 10px 10px 5px 5px;
+    margin: 10px 10px 10px 0px;
 }
 
 .test {
     background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 13px 15px 35px -2px rgba(0,0,0,0.75);
-    margin: 10px 10px 5px 5px;
+    margin: 10px 10px 10px 0px;
 }
 
 .bronnenlijst {
     background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 13px 15px 35px -2px rgba(0,0,0,0.75);
-    margin: 10px 10px 5px 5px;
+    margin: 10px;
 }
 
 .conclusie {
     background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 13px 15px 35px -2px rgba(0,0,0,0.75);
-    margin: 10px 10px 0px 10px;
+    margin: 10px 10px 10px 0px;
 }
 
 .Intro {
@@ -176,7 +171,7 @@ width: 70%;
 }
 
 .drawdiamond {
-    margin-top: -110vh;
+    margin-top: -10vh;
     margin-left: 1vw;
     height: 50px;
 }
