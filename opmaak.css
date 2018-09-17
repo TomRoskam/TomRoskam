@@ -1,4 +1,4 @@
-::-webkit-scrollbar { 
+::-webkit-scrollbar {   
     display: none; 
 }
 
@@ -26,29 +26,57 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.wrapper-motivatie-theorie-test {
+    display: flex;
+    justify-content: baseline;
+}
+
 .wrapper-motivatie {
-    background-color: grey;
-    display: inline;
+    width: 30%;
 }
 
 .motivatie {
-    background-color: blue;
-    display: flex-end;
-    width: 20%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 13px 15px 35px -2px rgba(0,0,0,0.75);
+    margin: 10px 5px 5px 10px;
+}
+
+.wrapper-theorie-test {
+width: 70%;
 }
 
 .theorie {
-    background-color: rgb(255, 0, 0);
-    width: 80%;
-    position: sticky;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 13px 15px 35px -2px rgba(0,0,0,0.75);
+    margin: 10px 10px 5px 5px;
 }
 
 .test {
-    background-color: green;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 13px 15px 35px -2px rgba(0,0,0,0.75);
+    margin: 10px 10px 5px 5px;
+}
+
+.bronnenlijst {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 13px 15px 35px -2px rgba(0,0,0,0.75);
+    margin: 10px 10px 5px 5px;
 }
 
 .conclusie {
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 13px 15px 35px -2px rgba(0,0,0,0.75);
+    margin: 10px 10px 0px 10px;
 }
 
 .Intro {
