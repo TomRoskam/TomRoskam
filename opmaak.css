@@ -11,7 +11,7 @@
 }
 
 .home {
-    background: url(steen.jpg) no-repeat center center fixed; 
+    background: url(punt.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -37,9 +37,9 @@
 
 .motivatie {
     background-color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 30px;
     border-radius: 5px; 
-    margin: 10px;
+    margin: 30px;
 }
 
 .wrapper-theorie-test {
@@ -48,34 +48,34 @@
 
 .theorie {
     background-color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 30px;
     border-radius: 5px;
-    margin: 10px 10px 10px 0px;
+    margin: 30px 30px 30px 0px;
 }
 
 .test {
     background-color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 30px;
     border-radius: 5px;
-    margin: 10px 10px 10px 0px;
+    margin: 30px 30px 30px 0px;
 }
 
 .bronnenlijst {
     background-color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 30px;
     border-radius: 5px;
-    margin: 10px;
+    margin: 30px;
 }
 
 .conclusie {
     background-color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 30px;
     border-radius: 5px;
-    margin: 10px 10px 10px 0px;
+    margin: 30px 30px 30px 0px;
 }
 
 .Intro {
-    background: url(vogel.jpg) no-repeat center center fixed; 
+    background: url(punt.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -162,7 +162,7 @@
 }
 
 .JS {
-    background: url(huizen.jpg) no-repeat center center fixed; 
+    background: url(punt.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -198,15 +198,15 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background: rgb(255,0,0);
-    background: linear-gradient(-20deg, rgba(255,0,0,1) 0%, rgba(9,9,121,1) 52%, rgba(222,173,252,1) 100%);
+    background: rgb(47,119,108);
+    background: linear-gradient(90deg, rgba(47,119,108,1) 0%, rgba(148,187,233,1) 100%);
     animation-duration: .2s;    /*ANIMATIE VERSCHIJNEN OVERLAY*/
     animation-name: fadein;
 }
 
 .overlay-content {
     position: relative;
-    top: 100px;
+    top: 10%;
     width: 100%;
     text-align: center;
 }
