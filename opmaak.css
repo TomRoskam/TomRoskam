@@ -161,6 +161,15 @@
     width: 15vh;
 }
 
+.beroepsbeeld {
+    background: url(punt.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300vh; 
+}
+
 .JS {
     background: url(punt.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
