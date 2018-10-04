@@ -167,58 +167,73 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 300vh;
+    height: 400vh;
     display: flex;
     justify-content: baseline;
 }
 
 .events {
     width: auto;
-    background-color: red;
     width: 100%;
     margin: 80px 30px 0px 30px;
 }
 
+.bedrijf-wrapper {
+    margin-top: 30px;
+}
+
+.bedrijf-test1{
+    position: absolute;
+
+}
+
+.bedrijf-test2 {
+    position: absolute;
+}
+
+.bedrijf-test3 {
+    position: absolute;
+
+}
+
+.bedrijf-test4 {
+    position: absolute;
+
+}
+
+.bedrijf-test5 {
+    position: absolute;
+}
+
 .bedrijf1 {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding: 30px;
     border-radius: 5px;
-    width: 100%;
-    margin: 0px 0px 10px 0px;
 }
 
 .bedrijf2 {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding: 30px;
     border-radius: 5px;
-    width: 100%;
-    float: right;
-    margin: 0px 0px 10px 0px;
 }
 
 .bedrijf3 {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding: 30px;
     border-radius: 5px;
-    width: 100%;
-    margin: 0px 0px 10px 0px;
 }
 
 .bedrijf4 {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding: 30px;
     border-radius: 5px;
-    width: 100%;
-    float: right;
-    margin: 0px 0px 10px 0px;
 }
 
 .bedrijf5 {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding: 30px;
     border-radius: 5px;
     width: 100%;
-    margin: 0px 0px 10px 0px;
 }
 
 .JS {
