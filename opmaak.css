@@ -167,7 +167,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 400vh;
+    height: 700vh;
     display: flex;
     justify-content: baseline;
 }
@@ -182,57 +182,78 @@
     margin-top: 30px;
 }
 
-.bedrijf-test1{
+.bedrijf-infosupport{
     position: absolute;
+    top: 300px;
+    right: 100px;
 }
 
-.bedrijf-test2 {
+.bedrijf-betabit {
     position: absolute;
+    top: 660px;
+    right: 100px;
 }
 
-.bedrijf-test3 {
+.bedrijf-quintor {
     position: absolute;
-
+    top: 1130px;
+    right: 100px;
 }
 
-.bedrijf-test4 {
+.bedrijf-ordina {
     position: absolute;
-
+    top: 1625px;
+    right: 100px;
 }
 
-.bedrijf-test5 {
+.bedrijf-qompas {
     position: absolute;
+    top: 2070px;
+    right: 100px;
 }
 
-.bedrijf1 {
+.infosupport {
     background-color: white;
     padding: 30px;
     border-radius: 5px;
 }
 
-.bedrijf2 {
+.betabit {
     background-color: white;
     padding: 30px;
     border-radius: 5px;
 }
 
-.bedrijf3 {
+.quintor {
     background-color: white;
     padding: 30px;
     border-radius: 5px;
 }
 
-.bedrijf4 {
+.ordina {
     background-color: white;
     padding: 30px;
     border-radius: 5px;
 }
 
-.bedrijf5 {
+.qompas {
     background-color: white;
     padding: 30px;
     border-radius: 5px;
     width: 100%;
+    margin: 0px 0px 30px 0px;
+}
+
+.safari-bedrijf1 {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.bedrijf-safari1 {
+    position: absolute;
+    top: 2625px;
+    right: 100px;
 }
 
 .JS {
