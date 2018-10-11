@@ -35,16 +35,6 @@
         <span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776; </span>
         <!--HAMBURGERMENU NAAR OVERLAY-->
 
-        <script>    //SCRIPT VOOR HET OPENEN EN SLUITEN VAN DE OVERLAY
-            function openNav() {
-                document.getElementById("myNav").style.display = "block";
-            }
-
-            function closeNav() {
-                document.getElementById("myNav").style.display = "none";
-            }
-        </script>
-
         <a class="navbar-brand" href="index.html">Home</a>
         <!--VOLGENDE PAGINA'S IN NAVBAR-->
         <ul class="navbar-nav">
@@ -56,9 +46,6 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="dashboard.html">Dashboard</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="beroepsbeeld.html">Beroepsbeeld</a>
             </li>
         </ul>
     </nav>
@@ -82,7 +69,7 @@
         <div class="container">
             <!--OM PLAATJES TE BUNDELEN. OOK TOOLTIP AANWEZIG-->
             <div class="shelby">
-                <img src="shelby.jpg" alt="shelby" width="325px" height="200px" data-toggle="tooltip" title="Shelby gt500 '67'">
+                <img src="shelby.jpg" alt="shelby" width="325px" height="200px" data-toggle="tooltip" title="Shelby gt500 '67">
             </div>
 
             <div class="drumstel">
@@ -101,6 +88,16 @@
         </script>
 
     </div>
+
+    <script>    //SCRIPT VOOR HET OPENEN EN SLUITEN VAN DE OVERLAY
+        function openNav() {
+            document.getElementById("myNav").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.display = "none";
+        }
+    </script>
 </body>
 
 </html>
