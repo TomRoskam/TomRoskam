@@ -1,32 +1,35 @@
-::-webkit-scrollbar {   /*om te kunnen pushen */
+::-webkit-scrollbar {
     display: none; 
 }
 
 body {
-    font-family:  !important; /* NOG EEN MOOIE FONT UITKIEZEN */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    letter-spacing: 1px;
 }
+
 .navbar {
     height: 50px;
+    background-color: #ffdfba;
 }
 
 .navbar-brand {
     padding: 0px 0px 0px 15px;
+    color: black;
+}
+
+.nav-item {
+    color: black;
 }
 
 .home {
-    background: url(./wallpapers/dal.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 245vh;
+    background-color:  #baffc9;;
 }
 
 .top {
-    color: white;
+    color: black;
     padding: 100px 100px 52px 100px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: 	#ffffba;
 }
 
 .wrapper-motivatie-theorie-test {
@@ -39,10 +42,14 @@ body {
 }
 
 .motivatie {
-    background-color: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 5px; 
     margin: 30px;
+}
+
+.motivatie:hover {
+    background-color: white;
+    transition-duration: .5s; 
 }
 
 .wrapper-theorie-test {
@@ -50,46 +57,58 @@ body {
 }
 
 .theorie {
-    background-color: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 5px;
     margin: 30px 30px 30px 0px;
+}
+
+.theorie:hover {
+    background-color: white;
+    transition-duration: .5s;
 }
 
 .test {
-    background-color: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 5px;
     margin: 30px 30px 30px 0px;
 }
 
+.test:hover {
+    background-color: white;
+    transition-duration: .5s;
+}
+
 .bronnenlijst {
-    background-color: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 5px;
     margin: 30px;
 }
 
+.bronnenlijst:hover {
+    background-color: white;
+    transition-duration: .5s;
+}
+
 .conclusie {
-    background-color: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 5px;
     margin: 30px 30px 30px 0px;
 }
 
+.conclusie:hover {
+    background-color: white;
+    transition-duration: .5s;
+}
+
 .Intro {
-    background: url(./wallpapers/dal.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: #bae1ff;
     height: 100vh;
 }
 
 .blok {
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 75px 100px 5px 25px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: 	#ffffba;
     margin-left: -15px;
     margin-right: -15px;
 }
@@ -136,20 +155,16 @@ body {
 }
 
 .beroepsbeeld {
-    background: url(./wallpapers/dal.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 700vh;
+    background-color:#ffffba;
     display: flex;
     justify-content: baseline;
+    height: 700vh;
 }
 
 .events {
     width: auto;
     width: 100%;
-    margin: 80px 30px 0px 30px;
+    margin: 80px 30px 0px 30px;   
 }
 
 .bedrijf-wrapper {
@@ -158,16 +173,17 @@ body {
 
 .foto-infosupport{
     position: absolute;
-    top: 300px;
-    right: 100px;
+    top: 35%;
+    right: 5%;
     border-radius: 5px;
+    background-color: white;
     box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
 }
 
 .foto-betabit {
     position: absolute;
     top: 660px;
-    right: 100px;
+    right: 5%;
     border-radius: 5px;
     box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
 }
@@ -175,7 +191,7 @@ body {
 .foto-quintor {
     position: absolute;
     top: 1130px;
-    right: 100px;
+    right: 5%;
     border-radius: 5px;
     box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
 }
@@ -183,7 +199,7 @@ body {
 .foto-ordina {
     position: absolute;
     top: 1625px;
-    right: 100px;
+    right: 5%;
     border-radius: 5px;
     box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
 }
@@ -191,47 +207,75 @@ body {
 .foto-qompas {
     position: absolute;
     top: 2070px;
-    right: 100px;
+    right: 5%;
     border-radius: 5px;
     box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
 }
 
 .infosupport {
-    background-color: white;
     padding: 30px;
+}
+
+.infosupport:hover {
+    background-color: white;
     border-radius: 5px;
+    transition-duration: .5s;
 }
 
 .betabit {
-    background-color: rgb(255, 255, 255);
     padding: 30px;
+}
+
+
+.betabit:hover {
+    background-color: white;
     border-radius: 5px;
+    transition-duration: .5s;
 }
 
 .quintor {
-    background-color: white;
     padding: 30px;
+}
+
+
+.quintor:hover {
+    background-color: white;
     border-radius: 5px;
+    transition-duration: .5s;
 }
 
 .ordina {
-    background-color: white;
     padding: 30px;
+}
+
+
+.ordina:hover {
+    background-color: white;
     border-radius: 5px;
+    transition-duration: .5s;
 }
 
 .qompas {
-    background-color: white;
     padding: 30px;
-    border-radius: 5px;
-    width: 100%;
     margin: 0px 0px 30px 0px;
 }
 
-.omoda {
+
+.qompas:hover {
     background-color: white;
-    padding: 30px;
     border-radius: 5px;
+    transition-duration: .5s;
+}
+
+.omoda {
+    padding: 30px;
+}
+
+
+.omoda:hover {
+    background-color: white;
+    border-radius: 5px;
+    transition-duration: .5s;
 }
 
 .text-wrapper {
@@ -240,10 +284,42 @@ body {
 
 .foto-omoda {
     position: absolute;
-    top: 2640px;
-    right: 100px;
+    top: 2630px;
+    right: 5%;
     border-radius: 5px;
     box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
+}
+
+.foto-yoursurprise {
+    position: absolute;
+    top: 3115px;
+    right: 5%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33); 
+}
+
+.foto-syntess {
+    position: absolute;
+    top: 3620px;
+    right: 5%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33); 
+}
+
+.foto-carcollect {
+    position: absolute;
+    top: 4120px;
+    right: 5%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33); 
+}
+
+.foto-colijnit {
+    position: absolute;
+    top: 4580px;
+    right: 5%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33); 
 }
 
 /*OVERLAY HAMURGER MENU*/
@@ -252,7 +328,7 @@ body {
 }
 
 .year {
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: -1%;
 }
 
@@ -264,8 +340,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background: rgb(47,119,108);
-    background: linear-gradient(90deg, rgba(47,119,108,1) 0%, rgba(148,187,233,1) 100%);
+    background-color: #baffc9;
     animation-duration: .2s;    /*ANIMATIE VERSCHIJNEN OVERLAY*/
     animation-name: fadein;
 }
@@ -279,7 +354,7 @@ body {
 
 .overlay a {
     font-size: 36px;
-    color:white ;
+    color:rgb(0, 0, 0) ;
     display: block;
 }
 
