@@ -103,32 +103,43 @@ body {
 .Intro {
     background-color: #bae1ff;
     height: 100vh;
+    position: absolute;
 }
 
 .blok {
+    position: absolute;
     color: rgb(0, 0, 0);
     padding: 75px 100px 5px 25px;
     background-color: 	#ffffba;
-    margin-left: -15px;
-    margin-right: -15px;
+    width: 30%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
+    margin: 5% 0% 0% 0%;
+    position: absolute;
+    right:  -20%;
+    background-color: rgba(255, 0, 0, 0);
+    height: 80%;
+    width: 400px;
+    float: left;
 }
 
 .shelby {
-    padding: 10px;
+    box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
+    margin: 0px 0px 10px 0px;
 }
 
 .drumstel {
-    padding: 10px;
+    box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
+    margin: 0px 0px 10px 0px;
 }
 
 .bal    {
-    padding: 10px;
+    box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
 }
 
 .Dashboard {
@@ -157,7 +168,6 @@ body {
     background-color:#ffffba;
     display: flex;
     justify-content: baseline;
-    height: 105%;
 }
 
 .events {
@@ -174,7 +184,6 @@ body {
     position: absolute;
     top: 35%;
     right: 5%;
-
     border-radius: 5px;
     background-color: white;
     box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
@@ -273,6 +282,50 @@ body {
 
 
 .omoda:hover {
+    background-color: white;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+
+.yoursurprise {
+    padding: 30px;
+}
+
+
+.yoursurprise:hover {
+    background-color: white;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+
+.syntess {
+    padding: 30px;
+}
+
+
+.syntess:hover {
+    background-color: white;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+
+.carcollect {
+  padding: 30px;
+}
+
+
+.carcollect:hover {
+    background-color: white;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+
+.colijnit {
+    padding: 30px;
+}
+
+
+.colijnit:hover {
     background-color: white;
     border-radius: 5px;
     transition-duration: .5s;
