@@ -3,34 +3,34 @@
 }
 
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
     letter-spacing: 1px;
 }
 
 .navbar {
     height: 50px;
-    background-color: #ffdfba;
+    background-color: #000000;
     box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
 }
 
 .navbar-brand {
     padding: 0px 0px 0px 15px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .nav-item {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .home {
-    background-color:  #baffc9;
+
 }
 
 .top {
     color: black;
     padding: 100px 100px 52px 100px;
     text-align: center;
-    background-color: 	#ffffba;
+    background-color: 	#c0c0c0;
     box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
 }
 
@@ -43,16 +43,29 @@ body {
     width: 30%;
 }
 
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
 .motivatie {
+    position: relative;
     padding: 30px;
     border-radius: 5px; 
     margin: 30px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .motivatie:hover {
-    background-color: white;
-    transition-duration: .5s;
-    box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33); 
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
 }
 
 .wrapper-theorie-test {
@@ -60,55 +73,78 @@ body {
 }
 
 .theorie {
+    position: relative;
     padding: 30px;
-    border-radius: 5px;
-    margin: 30px 30px 30px 0px;
+    border-radius: 5px; 
+    margin: 30px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .theorie:hover {
-    background-color: white;
-    transition-duration: .5s;
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
     box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
+    margin-right: 50px;
 }
 
 .test {
+    position: relative;
     padding: 30px;
-    border-radius: 5px;
-    margin: 30px 30px 30px 0px;
+    border-radius: 5px; 
+    margin: 30px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .test:hover {
-    background-color: white;
-    transition-duration: .5s;
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
     box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
+    margin-right: 50px;
 }
 
 .bronnenlijst {
+    position: relative;
     padding: 30px;
-    border-radius: 5px;
+    border-radius: 5px; 
     margin: 30px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .bronnenlijst:hover {
-    background-color: white;
-    transition-duration: .5s;
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
     box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
 }
 
 .conclusie {
+    position: relative;
     padding: 30px;
-    border-radius: 5px;
-    margin: 30px 30px 30px 0px;
+    border-radius: 5px; 
+    margin: 30px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .conclusie:hover {
-    background-color: white;
-    transition-duration: .5s;
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
     box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
+    margin-right: 50px;
 }
 
 .Intro {
-    background-color: #bae1ff;
+    background-color: #ffffff;
     height: 100vh;
     position: absolute;
 }
@@ -117,7 +153,7 @@ body {
     position: absolute;
     color: rgb(0, 0, 0);
     padding: 75px 100px 5px 25px;
-    background-color: 	#ffffba;
+    background-color: #c0c0c0;
     width: 30%;
     height: 100%;
     left: 0;
@@ -173,7 +209,7 @@ body {
 }
 
 .beroepsbeeld {
-    background-color:  #ffffba;
+    background-color:  #ffffff;
     display: flex;
     justify-content: baseline;
 }
@@ -214,7 +250,7 @@ body {
     box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
 }
 
-.infosupport {
+/* .infosupport {
     padding: 30px;
 }
 
@@ -222,6 +258,22 @@ body {
     background-color: white;
     border-radius: 5px;
     transition-duration: .5s;
+    box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
+} */
+
+.infosupport {
+    position: relative;
+    padding: 30px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.infosupport:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    border-radius: 5px;
     box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.33);
 }
 
