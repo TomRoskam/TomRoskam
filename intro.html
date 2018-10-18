@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm fixed-top">
+    <nav class="navbar navbar-expand-sm bg-dark fixed-top">
         <!--NAVBAR-->
         <div id="myNav" class="overlay">
             <!--HIER ONDER DE ITEMS VAN DE OVERLAY-->
@@ -51,7 +51,7 @@
         </ul>
     </nav>
 
-    <div class="container-fluid Intro">
+    <div class="container-fluid intro">
         <!--ROND PAGINA-->
         <div class="blok">
             <!--ZWARTE BLOK ACHTER INTRO-->
@@ -69,22 +69,15 @@
 
         <div class="container">
             <!--OM PLAATJES TE BUNDELEN. OOK TOOLTIP AANWEZIG-->
-                <img src="./intro/shelby.jpg" alt="shelby" class="shelby" width="325px" height="200px" data-toggle="tooltip"
-                    data-placement="left" title="Dit is de aller mooiste auto ter wereld. (stiekem mijn droom auto)"><br>
+            <img src="./intro/shelby.jpg" alt="shelby" class="shelby" width="325px" height="200px" data-toggle="tooltip"
+                data-placement="left" title="Dit is de aller mooiste auto ter wereld. (stiekem mijn droom auto)"><br>
 
-                <img src="./intro/drumstel.jpg" alt="shelby" class="drumstel" width="325px" height="200px" data-toggle="tooltip"
-                    data-placement="left" title="Drummen heb ik 9 jaar lang gedaan. En dit vind ik nog steeds leuk om te doen."><br>
+            <img src="./intro/drumstel.jpg" alt="shelby" class="drumstel" width="325px" height="200px" data-toggle="tooltip"
+                data-placement="left" title="Drummen heb ik 9 jaar lang gedaan. En dit vind ik nog steeds leuk om te doen."><br>
 
-                <img src="./intro/bal.jpg" alt="bal" class="bal" width="325px" height="200px" data-toggle="tooltip" data-placement="left"
-                    title="Ik heb een lange tijd gevoetbald, maar het nam toch wel veel tijd in beslag. En daarom ben ik ermee gestopt.">
+            <img src="./intro/bal.jpg" alt="bal" class="bal" width="325px" height="200px" data-toggle="tooltip"
+                data-placement="left" title="Ik heb een lange tijd gevoetbald, maar het nam toch wel veel tijd in beslag. En daarom ben ik ermee gestopt.">
         </div>
-
-        <script> //SCRIPT VOOR TOOLTIPS
-            $(document).ready(function () {
-                $('[data-toggle="tooltip"]').tooltip();
-            });
-        </script>
-
     </div>
 
     <script>    //SCRIPT VOOR HET OPENEN EN SLUITEN VAN DE OVERLAY
@@ -95,6 +88,10 @@
         function closeNav() {
             document.getElementById("myNav").style.display = "none";
         }
+        //voor de tooltips
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
     </script>
 </body>
 
