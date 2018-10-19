@@ -18,6 +18,15 @@ body {
 
 .nav-item {
     color: rgb(255, 255, 255);
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.nav-item:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .home {
@@ -57,7 +66,6 @@ body {
     position: relative;
     padding: 30px;
     border-radius: 5px; 
-    margin: 30px;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -65,9 +73,9 @@ body {
 }
 
 .motivatie:hover {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .wrapper-theorie-test {
@@ -78,7 +86,6 @@ body {
     position: relative;
     padding: 30px;
     border-radius: 5px; 
-    margin: 30px;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -86,17 +93,15 @@ body {
 }
 
 .theorie:hover {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    margin-right: 50px;
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .test {
     position: relative;
     padding: 30px;
     border-radius: 5px; 
-    margin: 30px;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -104,17 +109,15 @@ body {
 }
 
 .test:hover {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    margin-right: 50px;
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .bronnenlijst {
     position: relative;
     padding: 30px;
     border-radius: 5px; 
-    margin: 30px;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -122,16 +125,15 @@ body {
 }
 
 .bronnenlijst:hover {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .conclusie {
     position: relative;
     padding: 30px;
     border-radius: 5px; 
-    margin: 30px;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -139,11 +141,9 @@ body {
 }
 
 .conclusie:hover {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    margin-right: 50px;
- 
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .intro {
@@ -242,6 +242,19 @@ body {
     justify-content: center;
     color: black;
     font-weight: bold;
+}
+
+.row {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.row:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    border-radius: 5px;
 }
 
 .beroepsbeeld {
