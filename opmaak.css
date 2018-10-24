@@ -212,10 +212,118 @@ body {
 }
 
 .row:hover {
-    -moz-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-    border-radius: 5px;
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    border-radius: 50px;
+}
+
+#check1:hover {
+    cursor: pointer;
+}
+
+#cross1:hover {
+    cursor: pointer;
+}
+
+#verwijder1:hover {
+    cursor: pointer;
+}
+
+#check2:hover {
+    cursor: pointer;
+}
+
+#cross2:hover {
+    cursor: pointer;
+}
+
+#verwijder2:hover {
+    cursor: pointer;
+}
+
+#check3:hover {
+    cursor: pointer;
+}
+
+#cross3:hover {
+    cursor: pointer;
+}
+
+#verwijder3:hover {
+    cursor: pointer;
+}
+
+#check4:hover {
+    cursor: pointer;
+}
+
+#cross4:hover {
+    cursor: pointer;
+}
+
+#verwijder4:hover {
+    cursor: pointer;
+}
+
+#check5:hover {
+    cursor: pointer;
+}
+
+#cross5:hover {
+    cursor: pointer;
+}
+
+#verwijder5:hover {
+    cursor: pointer;
+}
+
+#check6:hover {
+    cursor: pointer;
+}
+
+#cross6:hover {
+    cursor: pointer;
+}
+
+#verwijder6:hover {
+    cursor: pointer;
+}
+
+#check7:hover {
+    cursor: pointer;
+}
+
+#cross7:hover {
+    cursor: pointer;
+}
+
+#verwijder7:hover {
+    cursor: pointer;
+}
+
+.check1 {
+    background-color: #5cb85c !important;
+}
+
+.cross1 {
+    background-color: #d9534f !important;
+}
+
+#toets1 {
+    background-color: white;
+}
+
+#toets3 {
+    background-color: white;
+}
+
+#toets5 {
+    background-color: white;
+}
+
+#toets7 {
+    background-color: white;
 }
 
 .beroepsbeeld {
