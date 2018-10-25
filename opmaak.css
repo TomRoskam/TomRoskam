@@ -180,7 +180,7 @@ body {
 }
 
 .progress-bar, .progress-bar-striped, .progress-bar-animated {
-    width: 0%;  /*AANPASSEN PROGRESSIE PROG. BALK*/
+    width: 20.83%;  /*AANPASSEN PROGRESSIE PROG. BALK*/
 }
 
 .prog-bar {
@@ -215,7 +215,6 @@ body {
     -moz-transform: scale(1.02);
     -webkit-transform: scale(1.02);
     transform: scale(1.02);
-    border-radius: 50px;
 }
 
 #check1:hover {
